@@ -27,7 +27,7 @@ menuIcon.onclick = () => {
 
 
 (function() {
-    emailjs.init('8yWyEDcZrdDTK8Js-'); // Replace with your EmailJS user ID
+    emailjs.init('26SG_TT5CvBk78PpJ'); // Replace with your EmailJS user ID
 })();
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
@@ -51,7 +51,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     };
 
     // Send the email using EmailJS
-    emailjs.send('service_3if7nl6', 'template_s40g9bs', templateParams)
+    emailjs.send('service_3if7nl6','template_s40g9bs', templateParams)
         .then(function(response) {
             console.log('SUCCESS!', response.status, response.text);
             alert('Message Sent Successfully!');

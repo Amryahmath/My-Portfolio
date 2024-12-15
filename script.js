@@ -42,7 +42,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     // Create the email parameters
     var templateParams = {
-        to_name: 'Shenal',
+        to_name: 'Amry',
         from_name: fullName,
         from_email: email,
         phone_number: phoneNumber,

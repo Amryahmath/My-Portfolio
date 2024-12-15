@@ -1,2 +1,1 @@
-# Shenal-Senarathne
-Portfolio 
+Amry Ahmath

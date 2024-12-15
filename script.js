@@ -44,8 +44,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     var templateParams = {
         to_name: 'Amry',
         from_name: fullName,
-        from_email: email,
-        phone_number: phoneNumber,
+        email: email,
+        phoneNumber: phoneNumber,
         subject: subject,
         message: message
     };

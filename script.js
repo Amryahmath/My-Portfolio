@@ -27,7 +27,7 @@ menuIcon.onclick = () => {
 
 
 (function() {
-    emailjs.init('B7Mvx-oh9M7vtPX9s'); // Replace with your EmailJS user ID
+    emailjs.init('8yWyEDcZrdDTK8Js-'); // Replace with your EmailJS user ID
 })();
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
